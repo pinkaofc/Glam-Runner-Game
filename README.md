@@ -18,9 +18,6 @@ Race through a neon cosmos, collect makeup, spell sassy words, and slay the runw
 
 ## 🏗️ Architecture Flowchart
 
-The game uses a unidirectional data flow via **Zustand** to manage game state, which drives the **React Three Fiber** scene.
-
-```mermaid
 graph TD
     subgraph "Game State (Zustand Store)"
         Store[store.ts] -- Holds --> Score
